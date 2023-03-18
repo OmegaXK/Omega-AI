@@ -4,6 +4,7 @@ from pathlib import Path
 from ai_interface import ai_interface
 
 def log_in(path):
+    """Let the user log in to the AI."""
     try:
         contents = path.read_text()
     except FileNotFoundError:
@@ -37,6 +38,7 @@ def log_in(path):
         
 
 def delete_account():
+    """Delete all of the files storing the user's info."""
     # Loop over the two files storing info.
     for file in ['user.json', 'user_interests.json']:
         # Create the path object, and if it exists, delete it.
@@ -46,6 +48,7 @@ def delete_account():
         
 
 def sign_up(path):
+        """Let the user sign up to make an account."""
         # Start by overriding the old data.
         delete_account()
 
