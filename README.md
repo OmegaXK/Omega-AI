@@ -3,6 +3,7 @@ A basic Python AI...
 
 # How To Use
 - Start by downloading the files.
+- Make sure all of the files are in the same directory.
 - Run the "init.py" file to open the AI.
 - Create an account by signing up.
 - Login to that account.
@@ -27,3 +28,6 @@ A basic Python AI...
   
 - Help:
   - Links the user to this page for instructions.
+  
+# Extra Notes
+- AI technically still in progress so there might be errors.
