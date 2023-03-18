@@ -3,7 +3,7 @@ A basic Python AI...
 
 # How To Use
 - Start by downloading the files.
-- Run the "initialize.py" file to open the AI.
+- Run the "init.py" file to open the AI.
 - Create an account by signing up.
 - Login to that account.
 - Use the features.
