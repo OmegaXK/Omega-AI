@@ -124,8 +124,7 @@ def recall_info():
         return
             
     # Loop over every key-value pair in the dictionary.
-    for key, value in user_interests.items():
-        # Keys are the type of info the user entered.
-        # Values are the actual info.
-        print(f"\n{key}: {value}")
+    for type_of_info, actual_info in user_interests.items():
+        # Print the info type and info, then wait 0.7 seconds.
+        print(f"\n{type_of_info}: {actual_info}")
         wait(0.7)
