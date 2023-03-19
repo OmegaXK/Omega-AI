@@ -1,3 +1,5 @@
+"""The main code that lets the user login and use the AI."""
+
 import json
 from os import remove
 from pathlib import Path 
