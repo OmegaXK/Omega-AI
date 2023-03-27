@@ -33,6 +33,10 @@ class AI:
     def return_user_info(self):
         """Return the user's info so it can be worked with."""
         return self.user_info
+    
+    def init(self):
+        """Starts up the AI easily by importing login.py's code."""
+        import login
 
 
 class User:
