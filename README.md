@@ -2,7 +2,7 @@
 A basic Python AI...
 
 # How To Use
-- Start by downloading the files.
+- Start by downloading all the files in the "AI" folder.
 - Make sure all of the files are in the same directory.
 - Run the "init.py" file to open the AI.
 - Create an account by signing up.
