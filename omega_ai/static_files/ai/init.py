@@ -3,7 +3,7 @@ A module that uses the "init" function to start the AI.
 It can also be run directly to start the AI.
 """
 
-from main import AI
+from static_files.ai.main import AI
 
 def init():
     """

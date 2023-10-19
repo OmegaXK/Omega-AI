@@ -36,7 +36,7 @@ class AI:
     
     def init(self):
         """Starts up the AI easily by importing login.py's code."""
-        import login
+        import static_files.ai.login as login
 
 
 class User:

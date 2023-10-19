@@ -3,7 +3,7 @@
 import json
 from pathlib import Path
 from time import sleep as wait
-from main import User, AI
+from static_files.ai.main import User, AI
 
 def ai_interface():
     """The main interface for using the AI."""
