@@ -3,7 +3,11 @@ A module that uses the "init" function to start the AI.
 It can also be run directly to start the AI.
 """
 
-from static_files.ai.main import AI
+import sys
+
+sys.path.append('/static_files')
+
+from main import AI
 
 def init():
     """
