@@ -1,9 +1,6 @@
 """The main classes and functions to model a simple AI using Python."""
 
 import random
-import sys 
-
-sys.path.append('/static_files')
 
 class AI:
     """The main class to model a simple AI."""
@@ -39,7 +36,7 @@ class AI:
     
     def init(self):
         """Starts up the AI easily by importing login.py's code."""
-        import static_files.login as login
+        import static_files.ai.seperated_files.login as login
 
 
 class User:

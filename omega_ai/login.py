@@ -1,12 +1,10 @@
 """The main code that lets the user login and use the AI."""
 
 import json
-import sys
 from os import remove
 from pathlib import Path 
-from static_files.ai_interface import ai_interface
+from ai_interface import ai_interface
 
-sys.path.append('/static_files')
 
 def log_in(path):
     """Let the user log in to the AI."""

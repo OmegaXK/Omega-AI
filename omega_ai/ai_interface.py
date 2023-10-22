@@ -1,12 +1,9 @@
 """A module that uses functions to model the interface of an AI."""
 
 import json
-import sys
 from pathlib import Path
 from time import sleep as wait
-from static_files.main import User, AI
-
-sys.path.append('/static_files')
+from main import User, AI
 
 def ai_interface():
     """The main interface for using the AI."""
